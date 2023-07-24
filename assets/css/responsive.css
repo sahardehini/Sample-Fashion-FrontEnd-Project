@@ -1,0 +1,187 @@
+
+@media(max-width:1200px){
+    .productArrowRight,.productArrowLeft {
+        display: none;
+    }
+}
+
+
+@media(max-width:993px){
+    .bannerButton{
+        width: 100%;
+    }
+
+    .logo {
+        padding-left: 2rem;
+        width: 46%;
+    }
+
+    .logoAndSearch {
+        display: flex;
+        width: 66%;
+        align-items: center;
+    }
+
+    .shoppingAndCreat {
+        display: flex;
+        margin-left: 2rem;
+        width: 40%;
+    }
+
+    .productArrowRight,.productArrowLeft {
+        display: none;
+    }
+
+    .latestProductCards {
+        display: grid;
+        margin-top: 7rem;
+        margin-left: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 1rem;
+    }
+
+    .cardsSellingProduct{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 1rem;
+        justify-content: center !important;
+    }
+
+    .sellingProductMenue{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 3rem 0;
+        margin: 2rem 0
+    }
+}
+
+
+
+
+@media(max-width:600px){
+    .divisimaLogo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoAndSearch{
+        display: flex;
+        width: 100% ;
+        flex-direction: column;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-bottom: 2rem;
+}
+    .logo img{
+       width: 40%;
+}
+
+    .searchOnDivisima{
+       margin-bottom: 2rem;
+}
+
+   .shoppingAndCreat{
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.navigation{
+    padding: 1rem 0;
+}
+
+.menueLists{
+    display: none !important;
+}
+
+.price{
+    display: none;
+}
+
+.bannerText{
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.bannerButton{
+    width: 91%;
+    display: flex;
+    justify-content: flex-start;
+}
+.btn{
+    padding: 1rem 3rem;
+}
+
+.sectionPermiumProduct{
+    display: flex;
+    flex-direction: column;
+}
+
+.permiumProductbox{
+    width: 100%;
+}
+
+.productArrowLeft{
+    display: none;
+}
+
+.productArrowRight{
+    display: none;
+}
+
+.latestProductCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sellingProductMenue{
+    width: 91%;
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    gap: 3rem 0rem;
+        margin-left: 3rem;
+}
+
+.sellingProductMenueList a{
+    padding: 1rem 2rem;
+}
+
+.cardsSellingProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.stripedShirts{
+    width: 76%;
+    background-position: center;
+     margin: 0 auto;
+    }
+
+    .footermenue{
+        display: flex;
+        flex-direction: column;
+        margin-left: 4rem;
+    }
+    .footerAbout {
+        width: 64%;
+        margin-bottom: 3rem;
+    }
+
+    .footerQuestions1{
+        margin-bottom: 2rem;
+    }
+
+    .footerQuestions2{
+        margin-bottom: 2rem;
+    }
+
+}
